@@ -2,4 +2,4 @@
 A web application where you can easily design a progress bar
 
 
-[![progressbar](https://youtu.be/4aKE8NMkqpw)](https://youtu.be/4aKE8NMkqpw)
+[![progressbar](https://www.youtube.com/watch?v=4aKE8NMkqpw)](https://www.youtube.com/watch?v=4aKE8NMkqpw)
