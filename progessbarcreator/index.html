@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="Creator">
+      <b
+        style="
+          background-color: black;
+          color: rgb(255, 0, 0);
+          border-radius: 1px;
+        "
+        >Create by</b
+      >
+      <a
+        href="https://github.com/codingwithahmet"
+        target="_blank"
+        style="
+          text-decoration: none;
+          background-color: rgb(0, 0, 0);
+          color: rgb(255, 0, 0);
+          border-radius: 1px;
+        "
+        >codingwithahmet</a
+      >
+    </div>
+    <div class="mainDiv">
+      <div class="prewiev">
+        <b
+          >Prewiev
+          <button class="runButton">Run</button>
+          <button class="runButton" id="copyButton">Copy</button>
+        </b>
+        <div class="progressContainer">
+          <div class="progressBar"></div>
+        </div>
+      </div>
+
+      <div class="settingContainer">
+        <div class="setting1">
+          <div class="cont">
+            Interval <br /><input
+              type="number"
+              id="barInterval"
+              class="inp"
+              value="2"
+              min="0"
+              max="10"
+            />
+          </div>
+        </div>
+        <!-- * -->
+        <div class="setting1">
+          <div class="cont">
+            Width <br /><input
+              type="number"
+              id="barWidth"
+              class="inp"
+              value="300"
+              min="0"
+              max="300"
+            />
+          </div>
+        </div>
+        <!-- * -->
+        <div class="setting1">
+          <div class="cont">
+            Height <br /><input
+              type="number"
+              id="barHeight"
+              class="inp"
+              value="40"
+              min="0"
+              max="50"
+            />
+          </div>
+        </div>
+        <!-- * -->
+        <div class="setting1">
+          <div class="cont">
+            Border <br /><input
+              type="number"
+              id="barBorder"
+              class="inp"
+              value="2"
+              min="0"
+              max="7"
+            />
+          </div>
+        </div>
+        <!-- * -->
+        <div class="setting1">
+          <div class="cont">
+            Border Radius <br /><input
+              type="number"
+              id="barBorderRadius"
+              class="inp"
+              value="5"
+              min="0"
+              max="10"
+            />
+          </div>
+        </div>
+        <!-- * -->
+        <div class="setting1">
+          <div class="cont">
+            Border Color <br /><input
+              type="color"
+              class="inp"
+              id="borderColor"
+              value="#000000"
+            />
+          </div>
+        </div>
+        <!-- * -->
+        <div class="setting1">
+          <div class="cont">
+            Bar Color <br /><input
+              type="color"
+              id="backgroundColor"
+              class="inp"
+              value="#FF0000"
+            />
+          </div>
+        </div>
+        <!-- * -->
+        <div class="setting1">
+          <div class="cont">
+            Bar in Color<br /><input
+              type="color"
+              id="barInColor"
+              class="inp"
+              value="#F0FF00"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="code">
+      <div class="languageTitle">HTML</div>
+      <div class="css" id="htmlCode"></div>
+    </div>
+    <div class="code">
+      <div class="languageTitle">CSS</div>
+      <div class="css" id="cssCode"></div>
+    </div>
+    <div class="code">
+      <div class="languageTitle">JS</div>
+      <div class="css" id="jsCode"></div>
+    </div>
+    x
+    <script src="/js/app.js" id="htmlCode"></script>
+  </body>
+</html>
