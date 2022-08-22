@@ -2,5 +2,5 @@
 A web application where you can easily design a progress bar
 
 
-https://user-images.githubusercontent.com/110285556/185988315-850f7f4c-7ca4-4054-ac8f-9303ce6d3df3.mp4
 
+[vokoscreenNG-2022-08-22_20-45-33.webm](https://user-images.githubusercontent.com/110285556/185988696-ea8b16bd-9baf-496a-a8ab-94b9a9a41025.webm)
